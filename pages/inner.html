@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=0, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/slick-theme.css"/>
+</head>
+<body>
+<div class="wrap">
+	<header class="header">
+		<div class="container">
+			<h2 class="logo">
+				bokmål
+			</h2>
+			<nav class="nav">
+				
+			</nav>
+			<h1 class="article-title">
+				Як українці читають дітям уголос?
+			</h1>
+			<p class="article-author">
+				Автор статті: 
+				<a href="#">
+					Міра Київська
+				</a>
+			</p>
+			<ul class="social">
+				<li>
+					Facebook
+				</li>
+				<li>
+					Twitter
+				</li>
+				<li>
+					Google+
+				</li>
+				<li>
+					VKontakte
+				</li>
+			</ul>
+		</div>
+	</header>
+	<!-- //= ../templates/blocks/hero.html -->
+	<!-- //= ../templates/blocks/options.html -->
+	<!-- //= ../templates/blocks/main-article.html -->
+	<!-- //= ../templates/blocks/news-list.html -->
+	<!-- //= ../templates/blocks/video.html -->
+	<!-- //= ../templates/blocks/aside.html -->
+	<footer class="footer">
+		<div class="container">
+			<div class="related">
+				<h3 class="footer-title">
+					читайте також
+				</h3>
+				<ul class="related-list">
+					<li class="related-item related-item-1">
+						<a href="#" target="_blank" class="related-link">
+							Чому ми повинні уникати просвітників?
+						</a>
+					</li>
+					<li class="related-item  related-item-2">
+						<a href="#" target="_blank" class="related-link">
+							Як українці читають своїм крейзанутим і божевільним дітям уголос?
+						</a>
+					</li>
+					<li class="related-item  related-item-3">
+						<a href="#" target="_blank" class="related-link">
+							Хто винайшов підлітків?
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="new">
+				<h3 class="footer-title">
+					нове й найцікавіше
+				</h3>
+				<ul class="new-list">
+					<li class="new-item new-item-1">
+						<figure class="new-item__img"></figure>
+						<p class="tag new-item__tag">
+							<a href="#">
+								книжкова полиця
+							</a>
+						</p>
+						<h4 class="new-item__title">
+							Як говорити: найцікавіші книжки-картинки про смерть
+						</h4>
+					</li>
+					
+					<li class="new-item new-item-2">
+						<figure class="new-item__img"></figure>
+						<p class="tag new-item__tag">
+							<a href="#">
+								популярна культура
+							</a>
+						</p>
+						<h4 class="new-item__title">
+							Сучасне батьківство: «Шведські тати»
+						</h4>
+					</li>
+					<li class="new-item new-item-3">
+						<figure class="new-item__img"></figure>
+						<p class="tag new-item__tag">
+							<a href="#">
+								популярна культура
+							</a>
+						</p>
+						<h4 class="new-item__title">
+							Сучасне батьківство: «Шведські тати»
+						</h4>
+					</li>
+					<li class="new-item new-item-4">
+						<figure class="new-item__img"></figure>
+						<p class="tag new-item__tag">
+							<a href="#">
+								книжкова полиця
+							</a>
+						</p>
+						<h4 class="new-item__title">
+							Як говорити: найцікавіші книжки-картинки про смерть
+						</h4>
+					</li>
+					
+					<li class="new-item new-item-5">
+						<figure class="new-item__img"></figure>
+						<p class="tag new-item__tag">
+							<a href="#">
+								популярна культура
+							</a>
+						</p>
+						<h4 class="new-item__title">
+							Сучасне батьківство: «Шведські тати»
+						</h4>
+					</li>
+					<li class="new-item new-item-6">
+						<figure class="new-item__img"></figure>
+						<p class="tag new-item__tag">
+							<a href="#">
+								популярна культура
+							</a>
+						</p>
+						<h4 class="new-item__title">
+							Сучасне батьківство: «Шведські тати»
+						</h4>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+<script>
+	$('.slider').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.slider-nav',
+  adaptiveHeight: true
+});
+$('.slider-nav').slick({
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  asNavFor: '.slider',
+  respondTo: 'slider',
+  // dots: true,
+  // centerMode: true,
+  focusOnSelect: true
+});
+</script>
+<script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+</body>
+</html>
